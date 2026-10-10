@@ -17,18 +17,14 @@ For the full architectural plan, see [**`LAYERS_ROADMAP.md`**](LAYERS_ROADMAP.md
 
 ---
 
-## 🚀 Milestones
+## 🚀 Current Milestone: Layer 0 (The Naive Baseline)
 
-### 📍 Layer 0: The Naive Baseline
 * **Code**: [`src/layer0_baseline.py`](src/layer0_baseline.py)
 * **Audio Result**: [`audio/layer0_naive_sawtooth.wav`](audio/layer0_naive_sawtooth.wav)
-* **Plot**: [`plots/layer0_waveform.png`](plots/layer0_waveform.png)
-* **Command**: `python src/layer0_baseline.py`
+* **Waveform Visualization**: [`plots/layer0_waveform.png`](plots/layer0_waveform.png)
 
-### 📍 Layer 1: Bow & Rosin Physics (Current Milestone)
-* **Code**: [`src/layer1_bow_physics.py`](src/layer1_bow_physics.py)
-* **Audio Result**: [`audio/layer1_helmholtz_string.wav`](audio/layer1_helmholtz_string.wav)
-* **Plot**: [`plots/layer1_comparison.png`](plots/layer1_comparison.png)
-* **Command**: `python src/layer1_bow_physics.py`
-
-Layer 1 implements finite bow-ribbon sinc filtering, string stiffness corner rounding, and attack "chiff" rosin friction noise, taming the harsh 8-bit buzzer into an organic vibrating string!
+### Running Layer 0:
+```bash
+python src/layer0_baseline.py
+```
+This generates the raw baseline audio and waveform plot so you can experience firsthand why pure mathematical waves sound like an electric buzzer!

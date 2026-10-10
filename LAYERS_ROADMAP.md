@@ -46,7 +46,7 @@ Each layer adds **one specific physical or acoustic phenomenon**, explains the u
 ---
 
 ### 📍 Layer 1: Bow & Rosin Physics ("Taming the Buzzer")
-* **Status**: 🟢 **CURRENT LAYER (Implemented)**
+* **Status**: 🟡 *Queued (Will implement after Layer 0 is posted)*
 * **Original Code Covered**: `violin_synth/excitation.py`
 * **What Layer is Added**:
   1. **Thermal stick-slip friction** (rosin gripping, pulling, and snapping).
