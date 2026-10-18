@@ -17,14 +17,24 @@ For the full architectural plan, see [**`LAYERS_ROADMAP.md`**](LAYERS_ROADMAP.md
 
 ---
 
-## 🚀 Current Milestone: Layer 0 (The Naive Baseline)
+## 🚀 Milestones
 
+### 📍 Layer 0: The Naive Baseline
 * **Code**: [`src/layer0_baseline.py`](src/layer0_baseline.py)
 * **Audio Result**: [`audio/layer0_naive_sawtooth.wav`](audio/layer0_naive_sawtooth.wav)
-* **Waveform Visualization**: [`plots/layer0_waveform.png`](plots/layer0_waveform.png)
+* **Plot**: [`plots/layer0_waveform.png`](plots/layer0_waveform.png)
+* **Command**: `python src/layer0_baseline.py`
 
-### Running Layer 0:
-```bash
-python src/layer0_baseline.py
-```
-This generates the raw baseline audio and waveform plot so you can experience firsthand why pure mathematical waves sound like an electric buzzer!
+### 📍 Layer 1: Bow & Rosin Physics
+* **Code**: [`src/layer1_bow_physics.py`](src/layer1_bow_physics.py)
+* **Audio Result**: [`audio/layer1_helmholtz_string.wav`](audio/layer1_helmholtz_string.wav)
+* **Plot**: [`plots/layer1_comparison.png`](plots/layer1_comparison.png)
+* **Command**: `python src/layer1_bow_physics.py`
+
+### 📍 Layer 2: The Rocking Bridge (Current Milestone)
+* **Code**: [`src/layer2_bridge_filter.py`](src/layer2_bridge_filter.py)
+* **Audio Result**: [`audio/layer2_rocking_bridge.wav`](audio/layer2_rocking_bridge.wav)
+* **Plot**: [`plots/layer2_comparison.png`](plots/layer2_comparison.png)
+* **Command**: `python src/layer2_bridge_filter.py`
+
+Layer 2 models the bridge as an asymmetric rocking lever pinned by the soundpost, creating the famous +14 dB "Bridge Hill" resonance boost around 3 kHz that gives the violin its brilliant soloist projection!
