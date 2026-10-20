@@ -60,7 +60,7 @@ Each layer adds **one specific physical or acoustic phenomenon**, explains the u
 ---
 
 ### 📍 Layer 2: The Rocking Bridge ("Finding the Soloist's Voice")
-* **Status**: 🟢 **CURRENT LAYER (Implemented)**
+* **Status**: ✅ **COMPLETED**
 * **Original Code Covered**: `violin_synth/ir_generator.py` (Bridge Hill section)
 * **What Layer is Added**:
   1. The **asymmetric lever filter** (the rigid soundpost locking the right foot).
@@ -72,12 +72,12 @@ Each layer adds **one specific physical or acoustic phenomenon**, explains the u
 ---
 
 ### 📍 Layer 3: The Wooden Body ("The Acoustic Transformer")
-* **Status**: ⚪ *Queued*
+* **Status**: 🟢 **CURRENT LAYER (Implemented)**
 * **Original Code Covered**: `violin_synth/body_resonator.py` & `violin_synth/ir_generator.py`
 * **What Layer is Added**:
-  1. **80+ modal resonances** of the carved Alpine spruce top and flamed maple back.
-  2. **Acoustic radiation scaling** (damping frequencies below 600 Hz).
-  3. **Fast FFT Convolution** with real measured Stradivarius and Guarneri body profiles.
+  1. **85+ modal resonances** of the carved Alpine spruce top and flamed maple back (1715 Stradivarius 'Titian').
+  2. **Acoustic radiation scaling & causal FFT convolution** (zero step click, smooth note transitions).
+  3. **Fast FFT Convolution** with real measured Stradivarius body profile.
 * **What it Improvises**: The dry string vibration suddenly gains the warm, cavernous, hollow wooden chamber of an Italian acoustic violin.
 * **The New Learning**: Chladni nodal patterns on vibrating plates, acoustic radiation efficiency, and the "Missing Fundamental" illusion (your brain synthesizing bass notes).
 * **Deliverable & Audio Result**: `audio/layer3_wooden_body.wav`.
