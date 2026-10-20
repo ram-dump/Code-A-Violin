@@ -31,10 +31,19 @@ For the full architectural plan, see [**`LAYERS_ROADMAP.md`**](LAYERS_ROADMAP.md
 * **Plot**: [`plots/layer1_comparison.png`](plots/layer1_comparison.png)
 * **Command**: `python src/layer1_bow_physics.py`
 
-### 📍 Layer 2: The Rocking Bridge (Current Milestone)
+### 📍 Layer 2: The Rocking Bridge
 * **Code**: [`src/layer2_bridge_filter.py`](src/layer2_bridge_filter.py)
 * **Audio Result**: [`audio/layer2_rocking_bridge.wav`](audio/layer2_rocking_bridge.wav)
 * **Plot**: [`plots/layer2_comparison.png`](plots/layer2_comparison.png)
 * **Command**: `python src/layer2_bridge_filter.py`
 
 Layer 2 models the bridge as an asymmetric rocking lever pinned by the soundpost, creating the famous +14 dB "Bridge Hill" resonance boost around 3 kHz that gives the violin its brilliant soloist projection!
+
+### 📍 Layer 3: The Wooden Body (Current Milestone)
+* **Code**: [`src/layer3_wooden_body.py`](src/layer3_wooden_body.py)
+* **Audio Result**: [`audio/layer3_wooden_body.wav`](audio/layer3_wooden_body.wav)
+* **Plot**: [`plots/layer3_comparison.png`](plots/layer3_comparison.png)
+* **Command**: `python src/layer3_wooden_body.py`
+
+Layer 3 passes the vibrating string and rocking bridge through the acoustic chamber of a 1715 Antonio Stradivarius ("Titian") using 85 modal plate resonances, air cavity f-hole breathing ($A_0$), and causal Fast FFT Convolution (zero step click), turning the wire into a deep, warm acoustic instrument!
+
